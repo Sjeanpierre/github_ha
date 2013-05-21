@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  owner: MyString
+  last_tag: MyText
+  last_commit: 2013-05-21
+
+two:
+  name: MyString
+  owner: MyString
+  last_tag: MyText
+  last_commit: 2013-05-21
