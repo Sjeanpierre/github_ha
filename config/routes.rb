@@ -2,6 +2,7 @@ GithubHa::Application.routes.draw do
   resources :repos do
 	  resources :downloads
   end
+  resources :downloads
 	root :to => 'repos#index'
 
 

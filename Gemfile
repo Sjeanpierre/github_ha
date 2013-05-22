@@ -9,7 +9,12 @@ gem 'sqlite3'
 gem 'thin'
 gem 'simple_form'
 
-
+group :development do
+	gem 'pry'
+	gem 'awesome_print'
+	gem 'better_errors'
+	gem 'binding_of_caller'
+end
 
 # Gems used only for assets and not required
 # in production environments by default.

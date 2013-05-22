@@ -1,0 +1,23 @@
+<%- downloads_model_class = Download -%>
+<table class="table table-bordered table-hover">
+  <thead>
+  <tr>
+    <th><%= downloads_model_class.human_attribute_name(:tag) %></th>
+    <th><%= downloads_model_class.human_attribute_name(:tagged_at) %></th>
+    <th><%= downloads_model_class.human_attribute_name(:retrieved_at) %></th>
+	  <th>SHA</th>
+	  <th>Download</th>
+  </tr>
+  </thead>
+  <tbody>
+  <% @repo.downloads.each do |download| %>
+    <tr>
+      <td><%=	download.tag %></td>
+      <td><%=	download.tagged_at %></td>
+      <td><%=	download.retrieved_at %></td>
+	    <td>nil</td>
+      <td>nil</td>
+    </tr>
+  <%	end %>
+  </tbody>
+</table>

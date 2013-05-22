@@ -2,7 +2,8 @@
 <div class="page-header">
   <h1><%=t '.title', :default => model_class.model_name.human.pluralize %></h1>
 </div>
-<table class="table table-striped well-large">
+
+<table class="table table-bordered table-hover">
   <thead>
     <tr>
       <th><%= model_class.human_attribute_name(:id) %></th>
@@ -10,7 +11,6 @@
       <th><%= model_class.human_attribute_name(:owner) %></th>
       <th><%= model_class.human_attribute_name(:last_tag) %></th>
       <th><%= model_class.human_attribute_name(:last_commit) %></th>
-      <th><%= model_class.human_attribute_name(:created_at) %></th>
       <th><%=t '.actions', :default => t("helpers.actions") %></th>
     </tr>
   </thead>
@@ -18,11 +18,10 @@
     <% @repos.each do |repo| %>
       <tr>
         <td><%= link_to repo.id, repo_path(repo) %></td>
-        <td><%= repo.name %></td>
+        <td><%= link_to repo.name, repo_path(repo) %></td>
         <td><%= repo.owner %></td>
         <td><%= repo.last_tag %></td>
         <td><%= repo.last_commit %></td>
-        <td><%=l repo.created_at %></td>
         <td>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
                       edit_repo_path(repo), :class => 'btn btn-mini' %>
@@ -36,6 +35,7 @@
     <% end %>
   </tbody>
 </table>
+
 
 <%= link_to t('.new', :default => t("helpers.links.new")),
             new_repo_path,
