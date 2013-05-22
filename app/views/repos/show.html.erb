@@ -3,16 +3,18 @@
   <h1><%=t '.title', :default => model_class.model_name.human %></h1>
 </div>
 
-<dl class="dl-horizontal">
-  <dt><strong><%= model_class.human_attribute_name(:name) %>:</strong></dt>
-  <dd><%= @repo.name %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:owner) %>:</strong></dt>
-  <dd><%= @repo.owner %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:last_tag) %>:</strong></dt>
-  <dd><%= @repo.last_tag %></dd>
-  <dt><strong><%= model_class.human_attribute_name(:last_commit) %>:</strong></dt>
-  <dd><%= @repo.last_commit %></dd>
-</dl>
+<div class="well">
+  <p><b><%= model_class.human_attribute_name(:name) %>: </b><%= @repo.name %><p>
+  <p><b><%= model_class.human_attribute_name(:owner) %>: </b><%= @repo.owner %><p>
+  <p><b><%= model_class.human_attribute_name(:last_tag) %>: </b><%= @repo.last_tag %><p>
+  <p><b><%= model_class.human_attribute_name(:last_commit) %>: </b><%= @repo.last_commit %><p>
+</div>
+
+<%	 if @repo.downloads.blank? %>
+	<p><b>There are currently no downloads to show for this Repository</b></p>
+<% else %>
+  <%= render :partial => 'downloads' %>
+<% end %>
 
 <div class="form-actions">
   <%= link_to t('.back', :default => t("helpers.links.back")),
@@ -24,4 +26,5 @@
               :method => 'delete',
               :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
               :class => 'btn btn-danger' %>
+	<%=	 link_to 'new', new_repo_download_path(@repo), :class => 'btn btn-info' %>
 </div>
