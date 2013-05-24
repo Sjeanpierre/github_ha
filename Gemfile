@@ -8,6 +8,7 @@ gem 'rails', '3.2.13'
 gem 'sqlite3'
 gem 'thin'
 gem 'simple_form'
+gem 'github_api', '0.8.9'
 
 group :development do
 	gem 'pry'
@@ -24,6 +25,7 @@ group :assets do
   gem 'twitter-bootstrap-rails'
   gem "therubyracer"
   gem "less-rails"
+  gem 'chosen-rails'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby

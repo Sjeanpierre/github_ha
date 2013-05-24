@@ -12,6 +12,8 @@
 //
 
 //= require jquery
+//= require chosen-jquery
+//= require scaffold
 //= require jquery.dataTables
 //= require github
 //= require_tree ../../../vendor/assets/javascripts
