@@ -1,0 +1,10 @@
+<%= simple_form_for :repo, :url => '/repos', :html => {:id => 'repo_form'} do |f| %>
+  <%= f.input :Repos, :as => :grouped_select, :collection => @repos, :group_method => :last, :input_html => { 'data-placeholder' => 'Select Repo', :multiple => true, :class => 'span5 chzn-select'},  :group_label_method => :first  %>
+  <%= f.button :submit %>
+<% end %>
+
+<div class="container chzn-container-multi " id="selected_items">
+	<ul class="chzn-choices">
+
+	</ul>
+</div>

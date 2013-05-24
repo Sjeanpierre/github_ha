@@ -4,6 +4,7 @@ GithubHa::Application.routes.draw do
   end
   resources :downloads
 	root :to => 'repos#index'
+  match 'settings/setup/repos', :to => 'settings#github_repos'
 
 
   # The priority is based upon order of creation:
