@@ -1,5 +1,5 @@
 <div>
-<%= simple_form_for :repo, :url => '/repos', :html => {:id => 'repo_form'} do |f| %>
+<%= simple_form_for :repo, :url => '/repos',:defaults => {:required => false}, :html => {:id => 'repo_form'} do |f| %>
   <%= f.input :Repos, :as => :grouped_select, :collection => @repos, :group_method => :last, :input_html => { 'data-placeholder' => 'Select Repo', :style => 'width: 960px', :multiple => true, :class => 'chzn-select'},  :group_label_method => :first  %>
 
   <div class="results-bucket chzn-container-repo well well-large selected-repos" id="selected_items">
@@ -7,7 +7,8 @@
 
     </ul>
   </div>
-  <div class="submit-button"><%= f.button :submit, :class => 'btn-primary btn-large' %></div>
+  <div class="submit-button"><%= f.button :submit, 'Save Repositories', :class => 'btn-primary btn-large' %></div>
+  <%= f.button :button, 'Clear Selections',:id => 'reset-form', :type => 'reset', :class => 'btn-danger btn-large' %>
 
 <% end %>
 </div>

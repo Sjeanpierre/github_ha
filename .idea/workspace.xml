@@ -5,9 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/github.css.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130521194036_create_repos.rb" afterPath="$PROJECT_DIR$/db/migrate/20130521194036_create_repos.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/repos/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/repos/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/repos/index.html.erb" afterPath="$PROJECT_DIR$/app/views/repos/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/misc.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/misc.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/repo.rb" afterPath="$PROJECT_DIR$/app/models/repo.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/repos_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/repos_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/settings.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/settings.js.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/settings_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/settings_helper.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/settings/setup_repos.html.erb" afterPath="$PROJECT_DIR$/app/views/settings/setup_repos.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/repos/show.html.erb" afterPath="$PROJECT_DIR$/app/views/repos/show.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="github_ha.iws" />
@@ -15,24 +24,24 @@
     <file path="/Dummy.txt" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369419263184" ignored="false" />
     <file path="/Gemfile" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369239028134" ignored="false" />
     <file path="/routes.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369258229175" ignored="false" />
-    <file path="/repo.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369169621620" ignored="false" />
+    <file path="/repo.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369590427655" ignored="false" />
     <file path="/application.html.erb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369432740996" ignored="false" />
-    <file path="/20130521194036_create_repos.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369171543772" ignored="false" />
+    <file path="/20130521194036_create_repos.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369535053656" ignored="false" />
     <file path="/schema.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369171569180" ignored="false" />
-    <file path="/index.html.erb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369236473231" ignored="false" />
-    <file path="/show.html.erb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369247170808" ignored="false" />
-    <file path="/_form.html.erb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369238789502" ignored="false" />
+    <file path="/index.html.erb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369589946852" ignored="false" />
+    <file path="/show.html.erb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369589776593" ignored="false" />
+    <file path="/_form.html.erb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369590649792" ignored="false" />
     <file path="/downloads_controller.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369246864148" ignored="false" />
     <file path="/_downloads.html.erb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369246382025" ignored="false" />
-    <file path="/fragment.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369283609752" ignored="false" />
+    <file path="/fragment.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369590466012" ignored="false" />
     <file path="/settings_controller.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369322857770" ignored="false" />
     <file path="$PROJECT_DIR$/../gitagger/app/helpers/git_hub_helper.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369257937052" ignored="false" />
     <file path="/git_hub_helper.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369257427593" ignored="false" />
     <file path="/github.yml" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369257729972" ignored="false" />
-    <file path="/settings_helper.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369258115981" ignored="false" />
-    <file path="/setup_repos.html.erb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369430666280" ignored="false" />
+    <file path="/settings_helper.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369454076461" ignored="false" />
+    <file path="/setup_repos.html.erb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369436030143" ignored="false" />
     <file path="/scaffold.js.coffee" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369337679467" ignored="false" />
-    <file path="/misc.js" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369426608639" ignored="false" />
+    <file path="/misc.js" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369435235114" ignored="false" />
     <file path="$PROJECT_DIR$/../mysageone/host_app/deployment_configuration.yml" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369405798284" ignored="false" />
     <file path="$PROJECT_DIR$/../mysageone/host_app/config/zuora.yml.tmpl" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369405798285" ignored="false" />
     <file path="$PROJECT_DIR$/../mysageone/host_app/config/newrelic.yml.tmpl" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369405798285" ignored="false" />
@@ -45,7 +54,12 @@
     <file path="/a.dummy" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369406920037" ignored="false" />
     <file path="/settings.css.scss" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369411291649" ignored="false" />
     <file path="/application.css" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369411789781" ignored="false" />
-    <file path="/github.css.sass" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369431428358" ignored="false" />
+    <file path="/github.css.sass" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369436154268" ignored="false" />
+    <file path="/settings.js.coffee" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369433939828" ignored="false" />
+    <file path="/repos_controller.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369583645197" ignored="false" />
+    <file path="/a.rxml" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369535288687" ignored="false" />
+    <file path="/a.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369535243787" ignored="false" />
+    <file path="/a.coffee" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369535275276" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,37 +76,64 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="setup_repos.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/settings/setup_repos.html.erb">
+      <file leaf-file-name="repos_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/repos_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="14" selection-start="359" selection-end="374" vertical-scroll-proportion="-2.56">
+            <state line="44" column="0" selection-start="831" selection-end="1203" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="misc.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/misc.js">
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/repos/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="48" selection-start="325" selection-end="325" vertical-scroll-proportion="0.0">
+            <state line="9" column="88" selection-start="491" selection-end="491" vertical-scroll-proportion="-5.76">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="github.css.sass" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/github.css.sass">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/repos/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0">
+            <state line="22" column="36" selection-start="858" selection-end="858" vertical-scroll-proportion="-7.68">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <file leaf-file-name="_form.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/repos/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="41" selection-start="488" selection-end="488" vertical-scroll-proportion="0.39087948">
+            <state line="3" column="26" selection-start="151" selection-end="151" vertical-scroll-proportion="0.08888889">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="repo.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/repo.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="0" selection-start="401" selection-end="401" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/settings_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="22" selection-start="51" selection-end="71" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings_helper.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/helpers/settings_helper.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="54" selection-start="924" selection-end="924" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -116,22 +157,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/controllers/downloads_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/repos/show.html.erb" />
-        <option value="$PROJECT_DIR$/config/github.yml" />
-        <option value="$PROJECT_DIR$/app/helpers/settings_helper.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/settings_controller.rb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/settings.js.coffee" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/scaffold.js.coffee" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/settings.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/misc.js" />
-        <option value="$PROJECT_DIR$/app/views/settings/setup_repos.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/github.css.sass" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/settings.js.coffee" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/misc.js" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/github.css.sass" />
+        <option value="$PROJECT_DIR$/app/views/settings/setup_repos.html.erb" />
+        <option value="$PROJECT_DIR$/app/helpers/settings_helper.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20130521194036_create_repos.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/repos_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/repos/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/repos/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/repo.rb" />
+        <option value="$PROJECT_DIR$/app/views/repos/_form.html.erb" />
       </list>
     </option>
   </component>
@@ -235,6 +276,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="github_ha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="github_ha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="github_ha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="github_ha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -279,11 +352,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -301,6 +370,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="github_ha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="github_ha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="github_ha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="github_ha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -308,7 +413,7 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="preferences.fileTypes" />
+    <property name="options.lastSelected" value="preferences.sourceCode.Ruby" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
@@ -637,8 +742,8 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2564417" sideWeight="0.71489817" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28510183" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2564417" sideWeight="0.6355841" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36441585" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39978564" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -706,120 +811,118 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="32" />
+      <option name="time" value="38" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/models/repo.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="24" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/settings_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="45" selection-start="105" selection-end="105" vertical-scroll-proportion="0.12578617">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/settings_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="32" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/settings.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="32" selection-start="390" selection-end="390" vertical-scroll-proportion="0.0">
+        <state line="4" column="0" selection-start="230" selection-end="230" vertical-scroll-proportion="0.10015649">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/scaffold.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="5" selection-start="31" selection-end="43" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1369337682000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/repos_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="116" selection-start="932" selection-end="932" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="19" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="28" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="18" selection-start="541" selection-end="541" vertical-scroll-proportion="0.27543035">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/settings.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="179" selection-end="179" vertical-scroll-proportion="0.07511737">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/assets/stylesheets/font-awesome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-12.671362">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/misc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="48" selection-start="325" selection-end="325" vertical-scroll-proportion="0.0">
+        <state line="2" column="5" selection-start="31" selection-end="43" vertical-scroll-proportion="0.050078247">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/settings/setup_repos.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="14" selection-start="359" selection-end="374" vertical-scroll-proportion="-2.56">
+        <state line="2" column="21" selection-start="146" selection-end="146" vertical-scroll-proportion="0.05324459">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/github.css.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0">
+        <state line="6" column="14" selection-start="86" selection-end="86" vertical-scroll-proportion="0.15335463">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/misc.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="41" selection-start="488" selection-end="488" vertical-scroll-proportion="0.39087948">
+        <state line="20" column="0" selection-start="792" selection-end="792" vertical-scroll-proportion="0.5007825">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/repos_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/downloads_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130521204817_create_downloads.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130521194036_create_repos.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="16" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/settings_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="22" selection-start="51" selection-end="71" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/settings_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="54" selection-start="924" selection-end="924" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/repos_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="0" selection-start="831" selection-end="1203" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/repos/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="88" selection-start="491" selection-end="491" vertical-scroll-proportion="-5.76">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/repo.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="401" selection-end="401" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/repos/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="36" selection-start="858" selection-end="858" vertical-scroll-proportion="-7.68">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/repos/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="26" selection-start="151" selection-end="151" vertical-scroll-proportion="0.08888889">
           <folding />
         </state>
       </provider>

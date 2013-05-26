@@ -27,6 +27,12 @@ module GitHubHelper
 		git_connection.orgs.list
 	end
 
+	def get_repo_details(repos)
+		git_connection = establish_git_connection
+		repos.map! {|repo| git_connection.get_request(repo)}
+	end
+
+
 	def get_org_teams(git_connection,org)
 		# it looks like the api only returns teams that the user is part of, including only pull access
 		org_teams = git_connection.orgs.teams.list(org)
