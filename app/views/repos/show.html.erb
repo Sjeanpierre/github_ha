@@ -7,7 +7,7 @@
   <p><b><%= model_class.human_attribute_name(:name) %>: </b><%= @repo.name %><p>
   <p><b><%= model_class.human_attribute_name(:owner) %>: </b><%= @repo.owner %><p>
   <p><b><%= model_class.human_attribute_name(:last_tag) %>: </b><%= @repo.last_tag %><p>
-  <p><b><%= model_class.human_attribute_name(:last_commit) %>: </b><%= @repo.last_commit %><p>
+  <p><b><%= model_class.human_attribute_name(:git_repo_id) %>: </b><%= @repo.git_repo_id %><p>
 </div>
 
 <%	 if @repo.downloads.blank? %>

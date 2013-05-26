@@ -10,7 +10,7 @@
       <th><%= model_class.human_attribute_name(:name) %></th>
       <th><%= model_class.human_attribute_name(:owner) %></th>
       <th><%= model_class.human_attribute_name(:last_tag) %></th>
-      <th><%= model_class.human_attribute_name(:last_commit) %></th>
+      <th><%= model_class.human_attribute_name(:git_repo_id) %></th>
       <th><%=t '.actions', :default => t("helpers.actions") %></th>
     </tr>
   </thead>
@@ -20,8 +20,8 @@
         <td><%= link_to repo.id, repo_path(repo) %></td>
         <td><%= link_to repo.name, repo_path(repo) %></td>
         <td><%= repo.owner %></td>
-        <td><%= repo.last_tag %></td>
-        <td><%= repo.last_commit %></td>
+        <td><%= repo.last_tag || 'N/A' %></td>
+        <td><%= repo.git_repo_id %></td>
         <td>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
                       edit_repo_path(repo), :class => 'btn btn-mini' %>

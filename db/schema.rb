@@ -28,7 +28,7 @@ ActiveRecord::Schema.define(:version => 20130521204817) do
     t.string   "name"
     t.string   "owner"
     t.string   "last_tag"
-    t.date     "last_commit"
+    t.integer  "git_repo_id"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
   end

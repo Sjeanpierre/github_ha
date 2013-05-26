@@ -1,5 +1,7 @@
 class ReposController < ApplicationController
 
+	include GitHubHelper
+
   def index
     @repos = Repo.all
 
@@ -35,17 +37,20 @@ class ReposController < ApplicationController
 
 
   def create
-    @repo = Repo.new(params[:repo])
-
-    respond_to do |format|
-      if @repo.save
-        format.html { redirect_to @repo, notice: 'Repo was successfully created.' }
-        format.json { render json: @repo, status: :created, location: @repo }
-      else
-        format.html { render action: "new" }
-        format.json { render json: @repo.errors, status: :unprocessable_entity }
-      end
-    end
+	  selected_repos = params[:repo][:Repos].reject {|element| element.blank?}
+	  selected_repos.map! {|repo_name| "/repos/#{repo_name}" }
+	  repo_details = get_repo_details(selected_repos)
+	  Repo.create_selected_repos(repo_details)
+    redirect_to repos_path
+    #respond_to do |format|
+    #  if @repo.save
+    #    format.html { redirect_to @repo, notice: 'Repo was successfully created.' }
+    #    format.json { render json: @repo, status: :created, location: @repo }
+    #  else
+    #    format.html { render action: "new" }
+    #    format.json { render json: @repo.errors, status: :unprocessable_entity }
+    #  end
+    #end
   end
 
 
