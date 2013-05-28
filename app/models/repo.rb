@@ -1,7 +1,8 @@
 class Repo < ActiveRecord::Base
-  attr_accessible :git_repo_id, :last_tag, :name, :owner
+  include GitHubHelper
+  attr_accessible :git_repo_id, :last_tag, :name, :owner, :repo_hook_id
   validates :git_repo_id, :uniqueness => true
-
+  after_create :create_repo_hook
 	has_many :downloads
 
 	def self.create_selected_repos(repos)
@@ -15,8 +16,14 @@ class Repo < ActiveRecord::Base
       rescue => e
         next if e.message == 'Validation failed: Git repo has already been taken'
       end
-
 	  end
-	end
+  end
+
+  private
+
+  def create_repo_hook
+    hook =  create_notification_hook(self.name, self.owner)
+    self.repo_hook_id = hook.id
+  end
 
 end

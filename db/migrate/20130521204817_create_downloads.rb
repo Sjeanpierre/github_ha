@@ -5,7 +5,6 @@ class CreateDownloads < ActiveRecord::Migration
       t.date :retrieved_at
       t.date :tagged_at
       t.references :repo
-
       t.timestamps
     end
     add_index :downloads, :repo_id

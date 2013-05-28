@@ -5,6 +5,7 @@ class CreateRepos < ActiveRecord::Migration
       t.string  :owner
       t.string  :last_tag
       t.integer :git_repo_id
+      t.integer :repo_hook_id
       t.timestamps
     end
   end
