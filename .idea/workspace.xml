@@ -5,38 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/modules/git_hub_helper.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130521194036_create_repos.rb" afterPath="$PROJECT_DIR$/db/migrate/20130521194036_create_repos.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/repos/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/repos/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/repos/index.html.erb" afterPath="$PROJECT_DIR$/app/views/repos/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/misc.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/misc.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130521204817_create_downloads.rb" afterPath="$PROJECT_DIR$/db/migrate/20130521204817_create_downloads.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/repo.rb" afterPath="$PROJECT_DIR$/app/models/repo.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/repos_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/repos_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/settings.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/settings.js.coffee" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/settings_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/settings_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/settings/setup_repos.html.erb" afterPath="$PROJECT_DIR$/app/views/settings/setup_repos.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/repos/show.html.erb" afterPath="$PROJECT_DIR$/app/views/repos/show.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="github_ha.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369419263184" ignored="false" />
+    <file path="/Dummy.txt" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369779092239" ignored="false" />
     <file path="/Gemfile" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369239028134" ignored="false" />
     <file path="/routes.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369258229175" ignored="false" />
-    <file path="/repo.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369590427655" ignored="false" />
+    <file path="/repo.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369778801254" ignored="false" />
     <file path="/application.html.erb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369432740996" ignored="false" />
-    <file path="/20130521194036_create_repos.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369535053656" ignored="false" />
+    <file path="/20130521194036_create_repos.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369778843005" ignored="false" />
     <file path="/schema.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369171569180" ignored="false" />
     <file path="/index.html.erb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369589946852" ignored="false" />
     <file path="/show.html.erb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369589776593" ignored="false" />
     <file path="/_form.html.erb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369590649792" ignored="false" />
     <file path="/downloads_controller.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369246864148" ignored="false" />
     <file path="/_downloads.html.erb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369246382025" ignored="false" />
-    <file path="/fragment.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369590466012" ignored="false" />
-    <file path="/settings_controller.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369322857770" ignored="false" />
+    <file path="/fragment.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369777683005" ignored="false" />
+    <file path="/settings_controller.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369593642496" ignored="false" />
     <file path="$PROJECT_DIR$/../gitagger/app/helpers/git_hub_helper.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369257937052" ignored="false" />
-    <file path="/git_hub_helper.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369257427593" ignored="false" />
+    <file path="/git_hub_helper.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369778690297" ignored="false" />
     <file path="/github.yml" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369257729972" ignored="false" />
     <file path="/settings_helper.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369454076461" ignored="false" />
     <file path="/setup_repos.html.erb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369436030143" ignored="false" />
@@ -60,6 +55,10 @@
     <file path="/a.rxml" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369535288687" ignored="false" />
     <file path="/a.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369535243787" ignored="false" />
     <file path="/a.coffee" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369535275276" ignored="false" />
+    <file path="/application.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369593551781" ignored="false" />
+    <file path="$PROJECT_DIR$/../gitagger/app/models/user.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369593675155" ignored="false" />
+    <file path="/user.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369593670595" ignored="false" />
+    <file path="/request.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369761795368" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,64 +75,19 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="repos_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/repos_controller.rb">
+      <file leaf-file-name="git_hub_helper.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/modules/git_hub_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="0" selection-start="831" selection-end="1203" vertical-scroll-proportion="0.0">
+            <state line="40" column="0" selection-start="1473" selection-end="1473" vertical-scroll-proportion="-8.88">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/repos/show.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="88" selection-start="491" selection-end="491" vertical-scroll-proportion="-5.76">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/repos/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="36" selection-start="858" selection-end="858" vertical-scroll-proportion="-7.68">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/repos/_form.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="26" selection-start="151" selection-end="151" vertical-scroll-proportion="0.08888889">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="repo.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="repo.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/repo.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="401" selection-end="401" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/settings_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="22" selection-start="51" selection-end="71" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings_helper.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/helpers/settings_helper.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="54" selection-start="924" selection-end="924" vertical-scroll-proportion="0.0">
+            <state line="25" column="0" selection-start="671" selection-end="671" vertical-scroll-proportion="0.708561">
               <folding />
             </state>
           </provider>
@@ -157,22 +111,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/settings.css.scss" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/settings.js.coffee" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/misc.js" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/github.css.sass" />
         <option value="$PROJECT_DIR$/app/views/settings/setup_repos.html.erb" />
-        <option value="$PROJECT_DIR$/app/helpers/settings_helper.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20130521194036_create_repos.rb" />
         <option value="$PROJECT_DIR$/app/controllers/repos_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/repos/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/repos/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/models/repo.rb" />
         <option value="$PROJECT_DIR$/app/views/repos/_form.html.erb" />
+        <option value="$PROJECT_DIR$/lib/modules/github.rb" />
+        <option value="$PROJECT_DIR$/app/helpers/settings_helper.rb" />
+        <option value="$PROJECT_DIR$/config/application.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/settings_controller.rb" />
+        <option value="$USER_HOME$/.rvm/gems/ruby-1.9.3-p374@github_ha/gems/github_api-0.8.9/lib/github_api/request.rb" />
+        <option value="$PROJECT_DIR$/lib/modules/git_hub_helper.rb" />
+        <option value="$PROJECT_DIR$/app/models/repo.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20130521194036_create_repos.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20130521204817_create_downloads.rb" />
       </list>
     </option>
   </component>
@@ -276,6 +230,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="github_ha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="github_ha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="github_ha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="github_ha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="db" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -295,114 +281,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="migrate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="github_ha" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="github_ha" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="github_ha" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="github_ha" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="repos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="github_ha" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="github_ha" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="github_ha" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="github_ha" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="github_ha" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="github_ha" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="github_ha" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="github_ha" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -735,15 +613,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1676" height="1028" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2564417" sideWeight="0.6355841" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36441585" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2564417" sideWeight="0.61843514" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38156486" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39978564" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -811,118 +689,125 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="38" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/lib/modules/git_hub_helper.rb</url>
+          <line>40</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="80" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/settings.js.coffee">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p374@github_ha/gems/activesupport-3.2.13/lib/active_support/tagged_logging.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="230" selection-end="230" vertical-scroll-proportion="0.10015649">
+        <state line="23" column="0" selection-start="970" selection-end="970" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/scaffold.js.coffee">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p374@github_ha/gems/actionpack-3.2.13/lib/action_dispatch/middleware/request_id.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="5" selection-start="31" selection-end="43" vertical-scroll-proportion="0.050078247">
+        <state line="23" column="0" selection-start="1100" selection-end="1100" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/settings/setup_repos.html.erb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p374@github_ha/gems/rack-1.4.5/lib/rack/runtime.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="21" selection-start="146" selection-end="146" vertical-scroll-proportion="0.05324459">
+        <state line="17" column="0" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/github.css.sass">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p374@github_ha/gems/activesupport-3.2.13/lib/active_support/cache/strategy/local_cache.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="14" selection-start="86" selection-end="86" vertical-scroll-proportion="0.15335463">
+        <state line="73" column="0" selection-start="2116" selection-end="2116" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/misc.js">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p374@github_ha/gems/rack-1.4.5/lib/rack/lock.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="792" selection-end="792" vertical-scroll-proportion="0.5007825">
+        <state line="15" column="0" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/repos_helper.rb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p374@github_ha/gems/rack-1.4.5/lib/rack/content_length.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p374@github_ha/gems/railties-3.2.13/lib/rails/rack/log_tailer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p374@github_ha/gems/thin-1.5.1/lib/thin/request.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="137" column="0" selection-start="4348" selection-end="4348" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p374@github_ha/gems/eventmachine-1.0.3/lib/em/deferrable.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="190" column="0" selection-start="7446" selection-end="7446" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p374@github_ha/gems/eventmachine-1.0.3/lib/eventmachine.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1433" column="0" selection-start="55105" selection-end="55105" vertical-scroll-proportion="0.33208954">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p374@github_ha/gems/thin-1.5.1/lib/thin/connection.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="986" selection-end="986" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/github.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/downloads_helper.rb">
+    <entry file="file://$PROJECT_DIR$/lib/modules/git_hub_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="40" column="0" selection-start="1473" selection-end="1473" vertical-scroll-proportion="-8.88">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20130521204817_create_downloads.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="7" column="4" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20130521194036_create_repos.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="16" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/settings_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="22" selection-start="51" selection-end="71" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/settings_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="54" selection-start="924" selection-end="924" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/repos_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="0" selection-start="831" selection-end="1203" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/repos/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="88" selection-start="491" selection-end="491" vertical-scroll-proportion="-5.76">
+        <state line="7" column="29" selection-start="217" selection-end="217" vertical-scroll-proportion="0.20400728">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/repo.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="401" selection-end="401" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/repos/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="36" selection-start="858" selection-end="858" vertical-scroll-proportion="-7.68">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/repos/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="26" selection-start="151" selection-end="151" vertical-scroll-proportion="0.08888889">
+        <state line="25" column="0" selection-start="671" selection-end="671" vertical-scroll-proportion="0.708561">
           <folding />
         </state>
       </provider>
