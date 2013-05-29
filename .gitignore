@@ -15,3 +15,5 @@
 /tmp
 
 config/github.yml
+
+config/database.yml
