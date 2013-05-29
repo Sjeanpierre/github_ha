@@ -5,6 +5,7 @@ GithubHa::Application.routes.draw do
   resources :downloads
 	root :to => 'repos#index'
   match 'settings/setup/repos', :to => 'settings#github_repos'
+  match '/hook', :to => 'downloads#receive_hook', :via => :post
 
 
   # The priority is based upon order of creation:

@@ -1,5 +1,7 @@
 class DownloadsController < ApplicationController
 
+  include GitHubHelper
+
 	def new
 		@download = Download.new
 
@@ -22,6 +24,12 @@ class DownloadsController < ApplicationController
 				format.json { render json: @download.errors, status: :unprocessable_entity }
 			end
 		end
-	end
+  end
+
+  def receive_hook
+    hook_data = parse_github_hook(params[:payload])
+    @repo = Repo.find_by_git_repo_id(hook_data.repository.id)
+    @download = @repo.downloads.create_from_hook(hook_data)
+  end
 
 end

@@ -1,4 +1,7 @@
 module GitHubHelper
+
+ require 'hashie'
+
   def get_repos
     git_connection = establish_git_connection
     accessible_repos = []
@@ -64,20 +67,23 @@ module GitHubHelper
     org_teams
   end
 
-  def get_repo_branches(git_connection,repo_name,repo_owner)
-    #TODO this method uses the username of the user which has the ability to change. handle edge cases
-    #TODO horribly horribly inefficient code. Github api limitation. need to cache and thread
-    branches = git_connection.repos.branches(repo_owner,repo_name)
-    repo_branches = []
-    repo_threads = []
-    branches.each do |branch|
-      repo_threads << Thread.new {
-        branch_details = git_connection.repos.branch(repo_owner,repo_name,branch.name)
-        repo_branches.push(branch_details)
-      }
+  def parse_github_hook(payload)
+    payload_hash = JSON.parse(payload)
+    event = Hashie::Mash.new(payload_hash)
+    if is_tag?(event.ref)
+      event.tag = get_event_tag(event.ref)
+      event
+    else
+      raise('rejected')
     end
-    repo_threads.each { |x| x.join}
-    repo_branches
+  end
+
+  def get_event_tag(ref)
+    ref.split('/').last
+  end
+
+  def is_tag?(ref)
+    ref.split('/')[1] == 'tags'
   end
 
   def get_commits(git_connection,repo_name,repo_owner, branch_name=false)
