@@ -5,7 +5,7 @@ gem 'rails', '3.2.13'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+gem 'mysql2'
 gem 'thin'
 gem 'simple_form'
 gem 'github_api', '0.8.9'
@@ -26,6 +26,7 @@ group :assets do
   gem "therubyracer"
   gem "less-rails"
   gem 'chosen-rails'
+  gem 'jquery-rails'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby

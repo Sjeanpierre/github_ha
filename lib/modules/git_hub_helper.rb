@@ -42,6 +42,19 @@ module GitHubHelper
     end
   end
 
+  def delete_notification_hook(repo_name, repo_owner, hook_id)
+    begin
+      git_connection = establish_git_connection
+      git_connection.repos.hooks.delete(repo_owner,repo_name,hook_id)
+    rescue Github::Error::GithubError => e
+      if e.is_a?(Github::Error::NotFound)
+        puts e.message
+      else
+        raise(e)
+      end
+    end
+  end
+
 
   def get_org_teams(git_connection,org)
     # it looks like the api only returns teams that the user is part of, including only pull access
