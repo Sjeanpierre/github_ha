@@ -6,6 +6,7 @@ GithubHa::Application.routes.draw do
 	root :to => 'repos#index'
   match 'settings/setup/repos', :to => 'settings#github_repos'
   match '/hook', :to => 'downloads#receive_hook', :via => :post
+  match "/delayed_job" => DelayedJobWeb, :anchor => false
 
 
   # The priority is based upon order of creation:

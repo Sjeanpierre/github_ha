@@ -9,6 +9,8 @@ gem 'mysql2'
 gem 'thin'
 gem 'simple_form'
 gem 'github_api', '0.8.9'
+gem 'delayed_job_active_record'
+gem 'delayed_job_web'
 
 group :development do
 	gem 'pry'
