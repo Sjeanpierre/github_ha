@@ -6,7 +6,6 @@
 <table class="table table-bordered table-hover">
   <thead>
     <tr>
-      <th><%= model_class.human_attribute_name(:id) %></th>
       <th><%= model_class.human_attribute_name(:name) %></th>
       <th><%= model_class.human_attribute_name(:owner) %></th>
       <th><%= model_class.human_attribute_name(:last_tag) %></th>
@@ -17,7 +16,6 @@
   <tbody>
     <% @repos.each do |repo| %>
       <tr>
-        <td><%= link_to repo.id, repo_path(repo) %></td>
         <td><%= link_to repo.name, repo_path(repo) %></td>
         <td><%= repo.owner %></td>
         <td><%= repo.downloads.last.try(:tag) || 'N/A'%></td>
