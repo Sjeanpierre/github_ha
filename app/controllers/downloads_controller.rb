@@ -1,4 +1,5 @@
 class DownloadsController < ApplicationController
+  protect_from_forgery :except => :receive_hook
 
   include GitHubHelper
 
@@ -27,9 +28,14 @@ class DownloadsController < ApplicationController
   end
 
   def receive_hook
+    begin
     hook_data = parse_github_hook(params[:payload])
     @repo = Repo.find_by_git_repo_id(hook_data.repository.id)
     @download = @repo.downloads.create_from_hook(hook_data)
+    render json: @download, status: :created
+    rescue => e
+      render json: {:message =>'failed to create download'}, status: :unprocessable_entity
+    end
   end
 
 end
