@@ -6,7 +6,7 @@
 <div class="well">
   <p><b><%= model_class.human_attribute_name(:name) %>: </b><%= @repo.name %><p>
   <p><b><%= model_class.human_attribute_name(:owner) %>: </b><%= @repo.owner %><p>
-  <p><b><%= model_class.human_attribute_name(:last_tag) %>: </b><%= @repo.last_tag %><p>
+  <p><b><%= model_class.human_attribute_name(:last_tag) %>: </b><%= @repo.downloads.last.try(:tag) || 'N/A' %><p>
   <p><b><%= model_class.human_attribute_name(:git_repo_id) %>: </b><%= @repo.git_repo_id %><p>
 </div>
 

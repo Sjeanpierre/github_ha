@@ -4,6 +4,7 @@ class CreateDownloads < ActiveRecord::Migration
       t.string :tag
       t.date :retrieved_at
       t.date :tagged_at
+      t.string :sha
       t.references :repo
       t.timestamps
     end
