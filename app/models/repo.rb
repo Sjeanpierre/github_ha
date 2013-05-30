@@ -4,7 +4,7 @@ class Repo < ActiveRecord::Base
   validates :git_repo_id, :uniqueness => true
   after_create :create_repo_hook
   after_destroy :delete_repo_hook
-	has_many :downloads
+	has_many :downloads, :dependent => :destroy
 
 	def self.create_selected_repos(repos)
 	  repos.each do |repo|
