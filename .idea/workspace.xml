@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/download.rb" afterPath="$PROJECT_DIR$/app/models/download.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/downloads_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/downloads_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/repos/index.html.erb" afterPath="$PROJECT_DIR$/app/views/repos/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/github_ha.iml" afterPath="$PROJECT_DIR$/.idea/github_ha.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="github_ha.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -20,9 +26,9 @@
     <file path="/index.html.erb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369799312577" ignored="false" />
     <file path="/show.html.erb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369884190155" ignored="false" />
     <file path="/_form.html.erb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369590649792" ignored="false" />
-    <file path="/downloads_controller.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369935214935" ignored="false" />
+    <file path="/downloads_controller.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369948474360" ignored="false" />
     <file path="/_downloads.html.erb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369934254746" ignored="false" />
-    <file path="/fragment.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369929158382" ignored="false" />
+    <file path="/fragment.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369948589423" ignored="false" />
     <file path="/settings_controller.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369593642496" ignored="false" />
     <file path="$PROJECT_DIR$/../gitagger/app/helpers/git_hub_helper.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369848512127" ignored="false" />
     <file path="/git_hub_helper.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369926506629" ignored="false" />
@@ -58,7 +64,7 @@
     <file path="$PROJECT_DIR$/../gitagger/config/routes.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369848512127" ignored="false" />
     <file path="$PROJECT_DIR$/../gitagger/app/views/layouts/application.html.erb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369848512127" ignored="false" />
     <file path="/database.yml" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369848683292" ignored="false" />
-    <file path="/download.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369929048224" ignored="false" />
+    <file path="/download.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369948608648" ignored="false" />
     <file path="/20130521204817_create_downloads.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369886448601" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,19 +91,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="downloads_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/downloads_controller.rb">
+      <file leaf-file-name="git_hub_helper.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/modules/git_hub_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="31" selection-start="1073" selection-end="1073" vertical-scroll-proportion="0.0">
+            <state line="110" column="0" selection-start="3556" selection-end="3556" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/repos/index.html.erb">
+      <file leaf-file-name="downloads_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/downloads_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="10" selection-start="610" selection-end="610" vertical-scroll-proportion="0.49725777">
+            <state line="37" column="62" selection-start="1154" selection-end="1154" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="20" selection-start="247" selection-end="262" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="download.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/download.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="0" selection-start="323" selection-end="323" vertical-scroll-proportion="0.33566433">
               <folding />
             </state>
           </provider>
@@ -126,17 +150,17 @@
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/repos/show.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20130521204817_create_downloads.rb" />
         <option value="$PROJECT_DIR$/lib/modules/git_hub_helper.rb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
-        <option value="$PROJECT_DIR$/app/models/download.rb" />
         <option value="$PROJECT_DIR$/app/views/repos/_downloads.html.erb" />
         <option value="$PROJECT_DIR$/app/models/repo.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/downloads_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/repos/index.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/downloads_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/download.rb" />
       </list>
     </option>
   </component>
@@ -284,38 +308,6 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="db">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="github_ha">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="db">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="migrate">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="github_ha">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="config">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
@@ -334,54 +326,6 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="views">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="github_ha">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="app">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="views">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="repos">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="github_ha">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="app">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="views">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="downloads">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Root">
@@ -397,20 +341,6 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="models">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="github_ha">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="app">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -970,14 +900,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="0" width="1676" height="1050" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20797546" sideWeight="0.62827224" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37172773" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37172773" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1046,24 +976,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="103" />
+      <option name="time" value="105" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p374@github_ha/gems/activerecord-3.2.13/lib/active_record/base.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="332" column="8" selection-start="16314" selection-end="16314" vertical-scroll-proportion="9.675775">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p374@github_ha/gems/activerecord-3.2.13/lib/active_record/persistence.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="348" column="0" selection-start="13792" selection-end="13792" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p374@github_ha/gems/activerecord-3.2.13/lib/active_record/connection_adapters/abstract/database_statements.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="213" column="0" selection-start="8346" selection-end="8346" vertical-scroll-proportion="0.0">
@@ -1120,23 +1036,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/download.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/repo.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="419" selection-end="419" vertical-scroll-proportion="0.41958043">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/repos/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="10" selection-start="610" selection-end="610" vertical-scroll-proportion="-10.88">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/modules/git_hub_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="61" selection-start="3611" selection-end="3611" vertical-scroll-proportion="1.6433567">
+        <state line="110" column="0" selection-start="3556" selection-end="3556" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/repo.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/downloads_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="37" column="62" selection-start="1154" selection-end="1154" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1148,16 +1071,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/downloads_controller.rb">
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="31" selection-start="1073" selection-end="1073" vertical-scroll-proportion="0.0">
+        <state line="8" column="57" selection-start="323" selection-end="323" vertical-scroll-proportion="0.22377622">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/repos/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="10" selection-start="610" selection-end="610" vertical-scroll-proportion="0.49725777">
+        <state line="12" column="20" selection-start="247" selection-end="262" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/download.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="323" selection-end="323" vertical-scroll-proportion="0.33566433">
           <folding />
         </state>
       </provider>
