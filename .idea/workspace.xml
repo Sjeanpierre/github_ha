@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130521204817_create_downloads.rb" afterPath="$PROJECT_DIR$/db/migrate/20130521204817_create_downloads.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/repos/_downloads.html.erb" afterPath="$PROJECT_DIR$/app/views/repos/_downloads.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/download.rb" afterPath="$PROJECT_DIR$/app/models/download.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/modules/git_hub_helper.rb" afterPath="$PROJECT_DIR$/lib/modules/git_hub_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/repos/index.html.erb" afterPath="$PROJECT_DIR$/app/views/repos/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/repos/show.html.erb" afterPath="$PROJECT_DIR$/app/views/repos/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/repo.rb" afterPath="$PROJECT_DIR$/app/models/repo.rb" />
     </list>
     <ignored path="github_ha.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -101,10 +93,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/repos/show.html.erb">
+      <file leaf-file-name="repo.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/repo.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="314" selection-end="314" vertical-scroll-proportion="0.18098721">
+            <state line="6" column="45" selection-start="284" selection-end="284" vertical-scroll-proportion="0.16783217">
               <folding />
             </state>
           </provider>
@@ -134,7 +126,6 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/models/repo.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/downloads_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/repos/show.html.erb" />
@@ -144,6 +135,7 @@
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/app/models/download.rb" />
         <option value="$PROJECT_DIR$/app/views/repos/_downloads.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/repo.rb" />
       </list>
     </option>
   </component>
@@ -977,14 +969,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="0" width="1676" height="1050" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20797546" sideWeight="0.62827224" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37172773" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37172773" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1081,13 +1073,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/repo.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="2" selection-start="34" selection-end="54" vertical-scroll-proportion="-0.12084063">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/modules/git_hub_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="110" column="61" selection-start="3611" selection-end="3611" vertical-scroll-proportion="0.0">
@@ -1144,13 +1129,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/download.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/repos/_downloads.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="54" selection-start="764" selection-end="764" vertical-scroll-proportion="0.6142596">
@@ -1160,7 +1138,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/repos/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="314" selection-end="314" vertical-scroll-proportion="0.18098721">
+        <state line="8" column="0" selection-start="314" selection-end="314" vertical-scroll-proportion="0.23400366">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/download.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/repo.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="45" selection-start="284" selection-end="284" vertical-scroll-proportion="0.16783217">
           <folding />
         </state>
       </provider>
