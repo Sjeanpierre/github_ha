@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(:version => 20130521204817) do
     t.string   "tag"
     t.date     "retrieved_at"
     t.date     "tagged_at"
+    t.string   "sha"
     t.integer  "repo_id"
     t.datetime "created_at",   :null => false
     t.datetime "updated_at",   :null => false

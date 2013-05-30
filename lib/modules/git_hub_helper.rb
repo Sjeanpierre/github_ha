@@ -105,6 +105,12 @@ module GitHubHelper
     git_connection.repos.tags(repo_owner,repo_name)
   end
 
+ def get_tag_sha(repo_owner,repo_name,tag)
+   git_connection = establish_git_connection
+   repo_tags = git_connection.repos.tags(repo_owner,repo_name)
+   repo_tags.detect { |repo_tag| repo_tag.name == tag }
+ end
+
 
   private
   def establish_git_connection

@@ -20,7 +20,7 @@
         <td><%= link_to repo.id, repo_path(repo) %></td>
         <td><%= link_to repo.name, repo_path(repo) %></td>
         <td><%= repo.owner %></td>
-        <td><%= repo.last_tag || 'N/A' %></td>
+        <td><%= repo.downloads.last.try(:tag) || 'N/A'%></td>
         <td><%= repo.git_repo_id %></td>
         <td>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
