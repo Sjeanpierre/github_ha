@@ -1,0 +1,46 @@
+<%- model_class = Repo -%>
+<script>
+	$(document).ready(function() {
+		$('#dtable').dataTable({
+			"aoColumnDefs": [
+				{ "bSearchable": false, "aTargets": [ 4 ] }
+			],
+			"sDom": "<'row'<'span6'l><'span6'f>r>t<'row'<'span6'i><'span6'p>>",
+			"sPaginationType": "bootstrap",
+			"bRetrieve": true,
+			"oLanguage": {
+				"sLengthMenu": "_MENU_ records per page"
+			}
+		});
+
+	} );
+</script>
+
+<table class="table table-striped table-bordered table-hover" id="dtable">
+  <thead>
+  <tr>
+    <th><%= model_class.human_attribute_name(:name) %></th>
+    <th><%= model_class.human_attribute_name(:owner) %></th>
+    <th><%= model_class.human_attribute_name(:last_tag) %></th>
+    <th><%= model_class.human_attribute_name(:git_repo_id) %></th>
+    <th><%=t '.actions', :default => t("helpers.actions") %></th>
+  </tr>
+  </thead>
+  <tbody>
+  <% @repos.each do |repo| %>
+    <tr>
+      <td><%= link_to repo.name, repo_path(repo) %></td>
+      <td><%= repo.owner %></td>
+      <td><%= repo.downloads.last.try(:tag) || 'N/A'%></td>
+      <td><%= repo.git_repo_id %></td>
+      <td>
+        <%= link_to t('.edit', :default => t("helpers.links.edit")),
+                    edit_repo_path(repo), :class => 'btn btn-mini' %>
+        <%= link_to 'Delete', repo, :confirm => 'Are you sure?',
+                    :class => 'btn btn-mini btn-danger',
+                    :method => :delete %>
+      </td>
+    </tr>
+  <% end %>
+  </tbody>
+</table>

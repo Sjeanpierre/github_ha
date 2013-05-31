@@ -1,14 +1,15 @@
 <%- model_class = Repo -%>
-<div class="page-header">
-  <h1><%=t '.title', :default => model_class.model_name.human %></h1>
+<div class="repo-heading">
+  <h1>Repo Details for <%= @repo.name %></h1>
+</div>
+<div class="repo-subheading">
+  <ul>
+    <li><b><%= model_class.human_attribute_name(:owner) %>: </b><%= @repo.owner %></li>
+    <li><b><%= model_class.human_attribute_name(:last_tag) %>: </b><%= @repo.downloads.last.try(:tag) || 'N/A' %></li>
+    <li class="last"><b>Git repo ID: </b><%= @repo.git_repo_id %></li>
+  </ul>
 </div>
 
-<div class="well">
-  <p><b><%= model_class.human_attribute_name(:name) %>: </b><%= @repo.name %><p>
-  <p><b><%= model_class.human_attribute_name(:owner) %>: </b><%= @repo.owner %><p>
-  <p><b><%= model_class.human_attribute_name(:last_tag) %>: </b><%= @repo.downloads.last.try(:tag) || 'N/A' %><p>
-  <p><b><%= model_class.human_attribute_name(:git_repo_id) %>: </b><%= @repo.git_repo_id %><p>
-</div>
 
 <%	 if @repo.downloads.blank? %>
 	<p><b>There are currently no downloads to show for this Repository</b></p>
