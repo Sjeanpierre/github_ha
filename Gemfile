@@ -12,6 +12,7 @@ gem 'github_api', '0.8.9'
 gem 'delayed_job_active_record'
 gem 'delayed_job_web'
 gem 'carrierwave'
+gem 'fog'
 
 group :development do
 	gem 'pry'
