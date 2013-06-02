@@ -28,6 +28,7 @@
     <orderEntry type="library" scope="PROVIDED" name="binding_of_caller (v0.7.1, RVM: ruby-1.9.3-p374 [github_ha]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.0.4, RVM: ruby-1.9.3-p374 [github_ha]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bundler (v1.2.3, RVM: ruby-1.9.3-p374 [github_ha]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="carrierwave (v0.8.0, RVM: ruby-1.9.3-p374 [github_ha]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="chosen-rails (v0.9.14, RVM: ruby-1.9.3-p374 [github_ha]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coderay (v1.0.9, RVM: ruby-1.9.3-p374 [github_ha]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-rails (v3.2.2, RVM: ruby-1.9.3-p374 [github_ha]) [gem]" level="application" />
@@ -44,6 +45,7 @@
     <orderEntry type="library" scope="PROVIDED" name="execjs (v1.4.0, RVM: ruby-1.9.3-p374 [github_ha]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="faraday (v0.8.7, RVM: ruby-1.9.3-p374 [github_ha]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="github_api (v0.8.9, RVM: ruby-1.9.3-p374 [github_ha]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="haml (v4.0.3, RVM: ruby-1.9.3-p374 [github_ha]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="hashie (v1.2.0, RVM: ruby-1.9.3-p374 [github_ha]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="hike (v1.2.2, RVM: ruby-1.9.3-p374 [github_ha]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="httpauth (v0.2.0, RVM: ruby-1.9.3-p374 [github_ha]) [gem]" level="application" />
@@ -79,6 +81,7 @@
     <orderEntry type="library" scope="PROVIDED" name="sass (v3.2.9, RVM: ruby-1.9.3-p374 [github_ha]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass-rails (v3.2.6, RVM: ruby-1.9.3-p374 [github_ha]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="simple_form (v2.1.0, RVM: ruby-1.9.3-p374 [github_ha]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sinatra (v1.3.6, RVM: ruby-1.9.3-p374 [github_ha]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="slop (v3.4.5, RVM: ruby-1.9.3-p374 [github_ha]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v2.2.2, RVM: ruby-1.9.3-p374 [github_ha]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="therubyracer (v0.11.4, RVM: ruby-1.9.3-p374 [github_ha]) [gem]" level="application" />
