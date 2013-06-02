@@ -1,6 +1,9 @@
 # encoding: utf-8
 
 class BackupUploader < CarrierWave::Uploader::Base
+  storage :fog
+  include CarrierWave::MimeTypes
+  process :set_content_type
 
   # Include RMagick or MiniMagick support:
   # include CarrierWave::RMagick
@@ -10,14 +13,16 @@ class BackupUploader < CarrierWave::Uploader::Base
   # include Sprockets::Helpers::RailsHelper
   # include Sprockets::Helpers::IsolatedHelper
 
-  # Choose what kind of storage to use for this uploader:
-  storage :file
-  # storage :fog
+
 
   # Override the directory where uploaded files will be stored.
   # This is a sensible default for uploaders that are meant to be mounted:
+
   def store_dir
-    "uploads/#{model.class.to_s.underscore}/#{mounted_as}/#{model.id}"
+    if model.sha
+      short_sha = model.sha.truncate(10, :omission => '')
+      "#{model.repo.name.to_s.underscore}/#{short_sha}"
+    end
   end
 
   # Provide a default URL as a default if there hasn't been a file uploaded:
@@ -48,8 +53,8 @@ class BackupUploader < CarrierWave::Uploader::Base
 
   # Override the filename of the uploaded files:
   # Avoid using model.id or version_name here, see uploader/store.rb for details.
-  # def filename
-  #   "something.jpg" if original_filename
-  # end
+  def filename
+    "#{self.model.tag}.tar.gz"
+  end
 
 end
