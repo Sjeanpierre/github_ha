@@ -2,7 +2,8 @@ class Download < ActiveRecord::Base
   include GitHubHelper
   belongs_to :repo
   after_create :populate_sha
-  attr_accessible :retrieved_at, :tag, :tagged_at, :sha
+  attr_accessible :retrieved_at, :tag, :tagged_at, :sha, :backup
+  mount_uploader :backup, BackupUploader
 
   def self.create_from_hook(hook)
     new_download = Download.new
@@ -14,7 +15,7 @@ class Download < ActiveRecord::Base
   end
 
   def populate_sha
-    tag_details = get_tag_sha(self.repo.owner,self.repo.name,self.tag)
+    tag_details = get_tag_info(self.repo.owner,self.repo.name,self.tag)
     self.update_attribute(:sha, tag_details.commit.sha )
   end
 
@@ -23,7 +24,9 @@ class Download < ActiveRecord::Base
   end
 
   def download
-    sleep 10
+    tag_details = get_tag_info(self.repo.owner,self.repo.name,self.tag)
+    tarball_url = "#{tag_details.tarball_url}?access_token=#{GITHUB_CONFIG['github_token']}"
+    self.remote_backup_url = tarball_url
     update_attribute(:retrieved_at, Time.now)
   end
 

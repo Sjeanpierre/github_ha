@@ -31,8 +31,8 @@
   <% @repo.downloads.each do |download| %>
     <tr>
       <td><%=	download.tag %></td>
-      <td><%=	download.tagged_at %></td>
-      <td><%=	download.retrieved_at || 'N/A'%></td>
+      <td><%=	download.tagged_at.try(:to_s, :long) 	 %></td>
+      <td><%=	download.retrieved_at.try(:to_s, :long) 	 || 'N/A'%></td>
 	    <td><%=	 download.sha.to_s.truncate(10, :omission => '') || 'N/A' %></td>
       <td>nil</td>
     </tr>
