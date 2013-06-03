@@ -9,5 +9,6 @@ CarrierWave.configure do |config|
       aws_secret_access_key: S3_CONFIG["AWS_SECRET_ACCESS_KEY"]
   }
   config.fog_directory = S3_CONFIG["AWS_S3_BUCKET"]
+  config.fog_public = false
 end
 

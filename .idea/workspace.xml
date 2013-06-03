@@ -5,16 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/amazon_s3.yml" afterPath="$PROJECT_DIR$/config/amazon_s3.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/uploaders/backup_uploader.rb" afterPath="$PROJECT_DIR$/app/uploaders/backup_uploader.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/carrierwave.rb" afterPath="$PROJECT_DIR$/config/initializers/carrierwave.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/downloads_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/downloads_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
     </list>
     <ignored path="github_ha.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369928440063" ignored="false" />
     <file path="/Gemfile" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369239028134" ignored="false" />
-    <file path="/routes.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369858183060" ignored="false" />
+    <file path="/routes.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1370282330076" ignored="false" />
     <file path="/repo.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369850071401" ignored="false" />
     <file path="/application.html.erb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1370027654507" ignored="false" />
     <file path="/20130521194036_create_repos.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369778843005" ignored="false" />
@@ -22,9 +22,9 @@
     <file path="/index.html.erb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1370030907327" ignored="false" />
     <file path="/show.html.erb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1370030139128" ignored="false" />
     <file path="/_form.html.erb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369590649792" ignored="false" />
-    <file path="/downloads_controller.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369948474360" ignored="false" />
+    <file path="/downloads_controller.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1370283431957" ignored="false" />
     <file path="/_downloads.html.erb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1370040246763" ignored="false" />
-    <file path="/fragment.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1370188621415" ignored="false" />
+    <file path="/fragment.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1370229701907" ignored="false" />
     <file path="/settings_controller.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369593642496" ignored="false" />
     <file path="$PROJECT_DIR$/../gitagger/app/helpers/git_hub_helper.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369848512127" ignored="false" />
     <file path="/git_hub_helper.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1370034037038" ignored="false" />
@@ -64,9 +64,9 @@
     <file path="/20130521204817_create_downloads.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369886448601" ignored="false" />
     <file path="/github.css" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1370021813528" ignored="false" />
     <file path="/github.js" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1370025150166" ignored="false" />
-    <file path="/carrierwave.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1370055600150" ignored="false" />
+    <file path="/carrierwave.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1370229136890" ignored="false" />
     <file path="/amazon_s3.yml" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1370056492964" ignored="false" />
-    <file path="/backup_uploader.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1370188878605" ignored="false" />
+    <file path="/backup_uploader.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1370204775193" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,19 +118,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="backup_uploader.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/uploaders/backup_uploader.rb">
+      <file leaf-file-name="downloads_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/downloads_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="12" selection-start="1652" selection-end="1652" vertical-scroll-proportion="1.6290909">
+            <state line="52" column="16" selection-start="1572" selection-end="1572" vertical-scroll-proportion="0.7762238">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="downloads_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/downloads_controller.rb">
+      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="0" selection-start="1137" selection-end="1137" vertical-scroll-proportion="0.0">
+            <state line="10" column="9" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -157,7 +157,7 @@
       <file leaf-file-name="carrierwave.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/initializers/carrierwave.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0">
+            <state line="11" column="27" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -192,7 +192,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/settings/setup_repos.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/github.css.sass" />
         <option value="$PROJECT_DIR$/app/views/repos/show.html.erb" />
@@ -201,13 +200,14 @@
         <option value="$PROJECT_DIR$/vendor/assets/javascripts/github.js" />
         <option value="$PROJECT_DIR$/lib/modules/git_hub_helper.rb" />
         <option value="$PROJECT_DIR$/app/models/download.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/downloads_controller.rb" />
         <option value="$USER_HOME$/.rvm/gems/ruby-1.9.3-p374@github_ha/gems/carrierwave-0.8.0/lib/carrierwave/uploader/download.rb" />
         <option value="$PROJECT_DIR$/app/views/repos/_downloads.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/config/initializers/carrierwave.rb" />
         <option value="$PROJECT_DIR$/config/amazon_s3.yml" />
         <option value="$PROJECT_DIR$/app/uploaders/backup_uploader.rb" />
+        <option value="$PROJECT_DIR$/config/initializers/carrierwave.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/downloads_controller.rb" />
       </list>
     </option>
   </component>
@@ -219,9 +219,9 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
+    <option name="x" value="1680" />
     <option name="width" value="1676" />
-    <option name="height" value="1028" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -571,6 +571,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="modules" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.FolderSubFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="github_ha" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="github_ha" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Config" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.ConfigFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="github_ha" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="github_ha" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Config" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.ConfigFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="initializers" />
               <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.FolderSubFolderNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1123,15 +1155,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1676" height="1028" extended-state="6" />
+    <frame x="1680" y="0" width="1676" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20797546" sideWeight="0.61950696" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38049304" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20797546" sideWeight="0.62827224" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37172773" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944787" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1202,34 +1234,15 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/app/controllers/downloads_controller.rb</url>
-          <line>38</line>
-          <option name="timeStamp" value="132" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="ruby-line">
           <url>file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p374@github_ha/gems/carrierwave-0.8.0/lib/carrierwave/uploader/store.rb</url>
           <line>26</line>
           <option name="timeStamp" value="134" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="135" />
+      <option name="time" value="143" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/models/download.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/carrierwave.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/repos/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1316,16 +1329,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/downloads_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/uploaders/backup_uploader.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="1137" selection-end="1137" vertical-scroll-proportion="0.0">
+        <state line="4" column="18" selection-start="103" selection-end="103" vertical-scroll-proportion="0.11636364">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/uploaders/backup_uploader.rb">
+    <entry file="file://$PROJECT_DIR$/config/initializers/carrierwave.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="12" selection-start="1652" selection-end="1652" vertical-scroll-proportion="1.6290909">
+        <state line="11" column="27" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="9" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/downloads_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="16" selection-start="1572" selection-end="1572" vertical-scroll-proportion="0.7762238">
           <folding />
         </state>
       </provider>

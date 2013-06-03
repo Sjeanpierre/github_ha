@@ -2,6 +2,7 @@
 
 class BackupUploader < CarrierWave::Uploader::Base
   storage :fog
+  fog_public false
   include CarrierWave::MimeTypes
   process :set_content_type
 
