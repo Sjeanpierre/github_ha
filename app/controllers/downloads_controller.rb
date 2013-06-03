@@ -40,6 +40,15 @@ class DownloadsController < ApplicationController
     end
   end
 
+  def download_tag_backup
+    begin
+      backup_url = Repo.where(:owner => params[:repo_owner], :name => params[:repo_name]).first.downloads.where(:tag => params[:tag]).last.backup
+      redirect_to backup_url.to_s
+    rescue => e
+      render text: 'Could not find requested resource', status: :not_found
+    end
+  end
+
 
 
 end
