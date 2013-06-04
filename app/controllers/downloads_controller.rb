@@ -40,6 +40,10 @@ class DownloadsController < ApplicationController
     end
   end
 
+  def download
+    p
+  end
+
   def download_tag_backup
     begin
       backup_url = Repo.where(:owner => params[:repo_owner], :name => params[:repo_name]).first.downloads.where(:tag => params[:tag]).last.backup

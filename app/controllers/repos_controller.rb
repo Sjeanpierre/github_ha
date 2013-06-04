@@ -53,6 +53,9 @@ class ReposController < ApplicationController
     #end
   end
 
+  def download
+
+  end
 
   def update
     @repo = Repo.find(params[:id])
