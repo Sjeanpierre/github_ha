@@ -7,6 +7,8 @@ GithubHa::Application.routes.draw do
   match 'settings/setup/repos', :to => 'settings#github_repos'
   match '/hook', :to => 'downloads#receive_hook', :via => :post
   match "/delayed_job" => DelayedJobWeb, :anchor => false
+  match '/download', :to => 'downloads#download_tag_backup'
+  match ':repo_owner/:repo_name/tarball/:tag', :constraints => {:tag => /[^\/]+/}, :to => 'downloads#download_tag_backup'
 
 
   # The priority is based upon order of creation:
