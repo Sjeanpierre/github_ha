@@ -23,7 +23,7 @@
     <th><%= model_class.human_attribute_name(:owner) %></th>
     <th><%= model_class.human_attribute_name(:last_tag) %></th>
     <th><%= model_class.human_attribute_name(:git_repo_id) %></th>
-    <th><%=t '.actions', :default => t("helpers.actions") %></th>
+    <th width='190px'><%=t '.actions', :default => t("helpers.actions") %></th>
   </tr>
   </thead>
   <tbody>
@@ -34,10 +34,10 @@
       <td><%= repo.downloads.last.try(:tag) || 'N/A'%></td>
       <td><%= repo.git_repo_id %></td>
       <td>
-        <%= link_to t('.edit', :default => t("helpers.links.edit")),
-                    edit_repo_path(repo), :class => 'btn btn-mini' %>
-        <%= link_to 'Delete', repo, :confirm => 'Are you sure?',
-                    :class => 'btn btn-mini btn-danger',
+        <%= link_to 'View Backups',
+                    repo_path(repo), :class => 'btn btn-primary' %>
+        <%= link_to 'Delete', repo, :confirm => 'Warning: When this repo is deleted all associated backups will also be removed. Are you sure?',
+                    :class => 'btn  btn-danger',
                     :method => :delete %>
       </td>
     </tr>

@@ -24,7 +24,7 @@
     <th><%= downloads_model_class.human_attribute_name(:tagged_at) %></th>
     <th><%= downloads_model_class.human_attribute_name(:retrieved_at) %></th>
 	  <th><%= downloads_model_class.human_attribute_name(:sha).upcase %></th>
-	  <th>Download</th>
+	  <th width='170px'>Download</th>
   </tr>
   </thead>
   <tbody>
@@ -33,8 +33,14 @@
       <td><%=	download.tag %></td>
       <td><%=	download.tagged_at.try(:to_s, :long) 	 %></td>
       <td><%=	download.retrieved_at.try(:to_s, :long) 	 || 'N/A'%></td>
-	    <td><%=	 download.sha.to_s.truncate(10, :omission => '') || 'N/A' %></td>
-      <td>nil</td>
+	    <td><%=	download.sha.to_s.truncate(10, :omission => '') || 'N/A' %></td>
+      <td><div class="downloads">
+	      <%	 if download.backup.blank? %>
+	        <%= link_to "Download Not Present", '#', :class => 'btn btn-warning' %>
+	      <% else %>
+	        <%= link_to "Download Tarball", "#{download.backup}", :class => 'btn btn-success' %>
+	      <% end %>
+      </div></td>
     </tr>
   <%	end %>
   </tbody>
