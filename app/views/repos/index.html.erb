@@ -4,7 +4,7 @@
 </div>
 
 <%	 if @repos.blank? %>
-  <p><b>There are currently no repositories listed for backup pleae go to add repository page to add some.</b></p>
+  <p><b>There are currently no repositories selected for backup, please go to the <%=	 link_to 'add repository page', :controller => :settings, :action => :github_repos  %> to add some.</b></p>
 <% else %>
   <%= render :partial => 'repos' %>
 <% end %>

@@ -5,27 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/bootstrap.js.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/repos/_downloads.html.erb" afterPath="$PROJECT_DIR$/app/views/repos/_downloads.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/repos/_repos.html.erb" afterPath="$PROJECT_DIR$/app/views/repos/_repos.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/downloads_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/downloads_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/github.css.sass" afterPath="$PROJECT_DIR$/app/assets/stylesheets/github.css.sass" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/github_ha.iml" afterPath="$PROJECT_DIR$/.idea/github_ha.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/repos_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/repos_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/repos/show.html.erb" afterPath="$PROJECT_DIR$/app/views/repos/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/repos/index.html.erb" afterPath="$PROJECT_DIR$/app/views/repos/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="github_ha.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1370367675550" ignored="false" />
+    <file path="/Dummy.txt" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1370463854050" ignored="false" />
     <file path="/Gemfile" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369239028134" ignored="false" />
     <file path="/routes.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1370282330076" ignored="false" />
     <file path="/repo.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369850071401" ignored="false" />
     <file path="/application.html.erb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1370027654507" ignored="false" />
     <file path="/20130521194036_create_repos.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369778843005" ignored="false" />
     <file path="/schema.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369171569180" ignored="false" />
-    <file path="/index.html.erb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1370030907327" ignored="false" />
+    <file path="/index.html.erb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1370385086138" ignored="false" />
     <file path="/show.html.erb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1370030139128" ignored="false" />
     <file path="/_form.html.erb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369590649792" ignored="false" />
     <file path="/downloads_controller.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1370296359790" ignored="false" />
@@ -42,12 +37,12 @@
     <file path="$PROJECT_DIR$/../mysageone/host_app/deployment_configuration.yml" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369405798284" ignored="false" />
     <file path="$PROJECT_DIR$/../mysageone/host_app/config/zuora.yml.tmpl" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369405798285" ignored="false" />
     <file path="$PROJECT_DIR$/../mysageone/host_app/config/newrelic.yml.tmpl" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369405798285" ignored="false" />
-    <file path="$PROJECT_DIR$/../mysageone/mysageone_na/spec/lib/mysageone_na/engine_spec.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369406060272" ignored="false" />
+    <file path="$PROJECT_DIR$/../mysageone/mysageone_na/spec/lib/mysageone_na/engine_spec.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1370397816921" ignored="false" />
     <file path="$PROJECT_DIR$/../mysageone/host_app/spec/config/initializers/sage_id_spec.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369406070886" ignored="false" />
-    <file path="$PROJECT_DIR$/../mysageone/mysageone_na/lib/mysageone_na/engine.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369406169927" ignored="false" />
-    <file path="$PROJECT_DIR$/../mysageone/host_app/config/initializers/sage_id.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369419574651" ignored="false" />
-    <file path="/sage_id.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369419572844" ignored="false" />
-    <file path="$PROJECT_DIR$/../mysageone/host_app/config/environments/production.rb.tmpl" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369406588364" ignored="false" />
+    <file path="$PROJECT_DIR$/../mysageone/mysageone_na/lib/mysageone_na/engine.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1370397816921" ignored="false" />
+    <file path="$PROJECT_DIR$/../mysageone/host_app/config/initializers/sage_id.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1370400920980" ignored="false" />
+    <file path="/sage_id.rb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1370400911193" ignored="false" />
+    <file path="$PROJECT_DIR$/../mysageone/host_app/config/environments/production.rb.tmpl" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1370400026295" ignored="false" />
     <file path="/a.dummy" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369406920037" ignored="false" />
     <file path="/settings.css.scss" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369411291649" ignored="false" />
     <file path="/application.css" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1369411789781" ignored="false" />
@@ -76,6 +71,8 @@
     <file path="/_repos.html.erb" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1370295669556" ignored="false" />
     <file path="/scaffolds.css.scss" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1370295056583" ignored="false" />
     <file path="$PROJECT_DIR$/../gitagger/config/database.yml" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1370367795878" ignored="false" />
+    <file path="$PROJECT_DIR$/../mysageone/Gemfile" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1370397816921" ignored="false" />
+    <file path="/production.rb.tmpl" changelist="dcacb7e2-20c4-4190-8db6-3c9bd94606ce" time="1370400026599" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +85,11 @@
   </component>
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
+  </component>
+  <component name="DatabaseView">
+    <flatten value="false" />
+    <groupTables value="false" />
+    <sortChildren value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -127,10 +129,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_downloads.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/repos/_downloads.html.erb">
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/repos/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="93" selection-start="940" selection-end="940" vertical-scroll-proportion="0.94476193">
+            <state line="6" column="2" selection-start="167" selection-end="167" vertical-scroll-proportion="0.1871345">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/settings_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -154,8 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/modules/git_hub_helper.rb" />
-        <option value="$PROJECT_DIR$/app/models/download.rb" />
         <option value="$USER_HOME$/.rvm/gems/ruby-1.9.3-p374@github_ha/gems/carrierwave-0.8.0/lib/carrierwave/uploader/download.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/amazon_s3.yml" />
@@ -170,6 +179,8 @@
         <option value="$PROJECT_DIR$/app/views/repos/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/repos/_download_buttons.html.erb" />
         <option value="$PROJECT_DIR$/app/views/repos/_downloads.html.erb" />
+        <option value="dbtable:/c5de71ac/4c1d2838-4483-4d86-ad54-9cac750c72bc/..repos" />
+        <option value="$PROJECT_DIR$/app/views/repos/index.html.erb" />
       </list>
     </option>
   </component>
@@ -635,6 +646,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Database.TableEditor.Splitter" value="0.9" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
@@ -962,13 +974,12 @@
     <frame x="0" y="22" width="1676" height="1028" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944787" sideWeight="0.62057877" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20797546" sideWeight="0.61950696" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38049304" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21288344" sideWeight="0.62057877" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37942123" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944787" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -977,6 +988,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39978564" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1052,20 +1064,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p374@github_ha/gems/actionpack-3.2.13/lib/abstract_controller/base.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="166" column="0" selection-start="5925" selection-end="5925" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p374@github_ha/gems/carrierwave-0.8.0/lib/carrierwave/uploader/store.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1199" selection-end="1199" vertical-scroll-proportion="0.33272728">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/uploaders/backup_uploader.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="18" selection-start="103" selection-end="103" vertical-scroll-proportion="0.11636364">
@@ -1089,35 +1087,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/downloads.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/assets/stylesheets/datatables-bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="3" selection-start="75" selection-end="76" vertical-scroll-proportion="0.1297989">
-          <folding />
-        </state>
+        <state line="6" column="3" selection-start="75" selection-end="76" vertical-scroll-proportion="0.1297989" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/sessions.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/repos_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="56" column="4" selection-start="1226" selection-end="1226" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/repos/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
@@ -1145,14 +1130,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/repos/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="9" selection-start="608" selection-end="608" vertical-scroll-proportion="0.30155212">
-          <folding />
-        </state>
+        <state line="17" column="9" selection-start="608" selection-end="608" vertical-scroll-proportion="0.30155212" />
+      </provider>
+    </entry>
+    <entry file="dbDummy://db-console:/c5de71ac/4c1d2838-4483-4d86-ad54-9cac750c72bc/">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/c5de71ac/4c1d2838-4483-4d86-ad54-9cac750c72bc/..repos">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/repos/_downloads.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="93" selection-start="940" selection-end="940" vertical-scroll-proportion="0.94476193">
+        <state line="31" column="93" selection-start="940" selection-end="940" vertical-scroll-proportion="0.9429658">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/settings_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/repos/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="2" selection-start="167" selection-end="167" vertical-scroll-proportion="0.1871345">
           <folding />
         </state>
       </provider>
