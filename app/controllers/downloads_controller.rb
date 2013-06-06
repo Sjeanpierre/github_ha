@@ -32,17 +32,15 @@ class DownloadsController < ApplicationController
     hook_data = parse_github_hook(params[:payload])
     @repo = Repo.find_by_git_repo_id(hook_data.repository.id)
     @download = @repo.downloads.create_from_hook(hook_data)
-    #Download.delay.download_content(@download.id)
-    Download.download_content(@download.id)
+    Download.delay.download_content(@download.id)
+    #Download.download_content(@download.id)
     render json: @download, status: :created
     rescue => e
       render json: {:message =>"failed to create download: #{e}"}, status: :unprocessable_entity
     end
   end
 
-  def download
-    p
-  end
+
 
   def download_tag_backup
     begin
