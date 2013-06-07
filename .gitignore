@@ -14,6 +14,12 @@
 /log/*.log
 /tmp
 
+config/github.yml
+
+config/database.yml
+
+config/amazon_s3.yml
+
 github_ha.csv
 
 
