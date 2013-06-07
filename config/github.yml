@@ -1,0 +1,5 @@
+development: &development
+  github_token: ''
+
+test:
+  <<: *development

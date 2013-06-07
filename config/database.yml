@@ -1,0 +1,25 @@
+db: &db
+  adapter: mysql2
+  encoding: utf8
+
+<% if File.exist? "/opt/local/var/run/mysql5/mysqld.sock" %>
+  socket: /opt/local/var/run/mysql5/mysqld.sock
+<% elsif File.exist? "/var/run/mysqld/mysqld.sock" %>
+  socket: /var/run/mysqld/mysqld.sock
+<% elsif File.exist? "/tmp/mysql.sock" %>
+  socket: /tmp/mysql.sock
+<% elsif File.exist? "/Applications/MAMP/tmp/mysql/mysql.sock" %>
+  socket: /Applications/MAMP/tmp/mysql/mysql.sock
+<% end %>
+
+development: &development
+  <<: *db
+  database: github_ha
+  username: root
+  password: ''
+
+profile:
+  <<: *development
+
+load_testing:
+  <<: *development
